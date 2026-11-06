@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#00B4D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Payslip document -->
+  <path d="M8 8a2 2 0 0 1 2-2h24l10 10v40a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2z"/>
+  <!-- Document fold corner -->
+  <path d="M34 6v10h10"/>
+  <!-- Header bar -->
+  <line x1="14" y1="22" x2="30" y2="22"/>
+  <!-- Detail rows -->
+  <line x1="14" y1="28" x2="38" y2="28"/>
+  <line x1="14" y1="33" x2="38" y2="33"/>
+  <line x1="14" y1="38" x2="38" y2="38"/>
+  <!-- Separator line -->
+  <line x1="14" y1="44" x2="38" y2="44"/>
+  <!-- Total amount -->
+  <line x1="24" y1="49" x2="38" y2="49"/>
+  <!-- Coin -->
+  <circle cx="50" cy="42" r="9"/>
+  <!-- Dollar sign drawn as path -->
+  <path d="M47 39.5c0-1.4 1.3-2.5 3-2.5s3 1.1 3 2.5-1.3 2.5-3 2.5-3 1.1-3 2.5 1.3 2.5 3 2.5 3-1.1 3-2.5"/>
+  <line x1="50" y1="35.5" x2="50" y2="48.5"/>
+  <!-- Checkmark badge -->
+  <circle cx="52" cy="18" r="6"/>
+  <path d="M49 18l2 2.5 4.5-5"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#00B4D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Person silhouette centered -->
+  <circle cx="28" cy="26" r="5.5"/>
+  <path d="M18 42a10 10 0 0 1 20 0"/>
+  <!-- Circular arrow - top arc (clockwise from top-left to top-right) -->
+  <path d="M20 8A24 24 0 0 1 52 24"/>
+  <polyline points="52,18 52,24 46,24"/>
+  <!-- Right-bottom arc -->
+  <path d="M54 30A24 24 0 0 1 36 56"/>
+  <polyline points="42,56 36,56 36,50"/>
+  <!-- Bottom-left arc -->
+  <path d="M30 58A24 24 0 0 1 8 28"/>
+  <polyline points="8,34 8,28 14,28"/>
+  <!-- Small gear -->
+  <circle cx="46" cy="40" r="4.5"/>
+  <circle cx="46" cy="40" r="1.5"/>
+  <line x1="46" y1="34.5" x2="46" y2="35"/>
+  <line x1="46" y1="45" x2="46" y2="45.5"/>
+  <line x1="40.5" y1="40" x2="41" y2="40"/>
+  <line x1="51" y1="40" x2="51.5" y2="40"/>
+  <line x1="42.1" y1="36.1" x2="42.5" y2="36.5"/>
+  <line x1="49.5" y1="43.5" x2="49.9" y2="43.9"/>
+  <line x1="49.5" y1="36.1" x2="49.9" y2="36.5"/>
+  <line x1="42.1" y1="43.5" x2="42.5" y2="43.9"/>
+</svg>
