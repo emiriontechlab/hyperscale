@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 960" width="400" height="960" fill="none">
+  <defs>
+    <linearGradient id="bgGradM" x1="0" y1="0" x2="400" y2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="lineGradM" x1="60" y1="90" x2="60" y2="870" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#00B4D8" />
+    </linearGradient>
+    <linearGradient id="tealGradM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="100%" stop-color="#007799" />
+    </linearGradient>
+    <linearGradient id="greenGradM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="cardShadowM" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0F2137" flood-opacity="0.05" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-m { font-family: 'Poppins', -apple-system, sans-serif; font-size: 16px; font-weight: 700; fill: #0F2137; }
+    .desc-m { font-family: 'Inter', -apple-system, sans-serif; font-size: 13px; font-weight: 400; fill: #64748B; }
+    .step-m { font-family: 'Poppins', -apple-system, sans-serif; font-size: 13px; font-weight: 800; fill: #FFFFFF; text-anchor: middle; }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="400" height="960" rx="20" fill="url(#bgGradM)" stroke="#E2E8F0" stroke-width="1.5" />
+
+  <!-- Vertical Connecting Line -->
+  <line x1="60" y1="90" x2="60" y2="870" stroke="url(#lineGradM)" stroke-width="4" stroke-dasharray="6 4" opacity="0.6" />
+  <line x1="60" y1="90" x2="60" y2="870" stroke="url(#lineGradM)" stroke-width="3" stroke-linecap="round" />
+
+  <!-- STEP 1 -->
+  <g transform="translate(30, 40)">
+    <circle cx="30" cy="45" r="28" fill="url(#tealGradM)" />
+    <text x="30" y="50" class="step-m">01</text>
+    <rect x="75" y="0" width="265" height="130" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadowM)" />
+    <text x="95" y="38" class="title-m">1. Document Collection</text>
+    <text x="95" y="65" class="desc-m">Pre-check and validation of</text>
+    <text x="95" y="85" class="desc-m">passports, photos &amp; attested</text>
+    <text x="95" y="105" class="desc-m">degrees to prevent delays.</text>
+  </g>
+
+  <!-- STEP 2 -->
+  <g transform="translate(30, 220)">
+    <circle cx="30" cy="45" r="28" fill="url(#tealGradM)" />
+    <text x="30" y="50" class="step-m">02</text>
+    <rect x="75" y="0" width="265" height="130" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadowM)" />
+    <text x="95" y="38" class="title-m">2. Work &amp; Entry Permit</text>
+    <text x="95" y="65" class="desc-m">MoHRE &amp; immigration</text>
+    <text x="95" y="85" class="desc-m">approvals, electronic entry</text>
+    <text x="95" y="105" class="desc-m">permit or in-country status change.</text>
+  </g>
+
+  <!-- STEP 3 -->
+  <g transform="translate(30, 400)">
+    <circle cx="30" cy="45" r="28" fill="url(#tealGradM)" />
+    <text x="30" y="50" class="step-m">03</text>
+    <rect x="75" y="0" width="265" height="130" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadowM)" />
+    <text x="95" y="38" class="title-m">3. Medical Fitness Test</text>
+    <text x="95" y="65" class="desc-m">Appointment booking &amp;</text>
+    <text x="95" y="85" class="desc-m">fast-track screening at approved</text>
+    <text x="95" y="105" class="desc-m">UAE medical centres.</text>
+  </g>
+
+  <!-- STEP 4 -->
+  <g transform="translate(30, 580)">
+    <circle cx="30" cy="45" r="28" fill="url(#tealGradM)" />
+    <text x="30" y="50" class="step-m">04</text>
+    <rect x="75" y="0" width="265" height="130" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadowM)" />
+    <text x="95" y="38" class="title-m">4. Emirates ID Biometrics</text>
+    <text x="95" y="65" class="desc-m">ICP application submission,</text>
+    <text x="95" y="85" class="desc-m">biometrics appointment</text>
+    <text x="95" y="105" class="desc-m">scheduling &amp; VIP assistance.</text>
+  </g>
+
+  <!-- STEP 5 -->
+  <g transform="translate(30, 760)">
+    <circle cx="30" cy="45" r="28" fill="url(#greenGradM)" />
+    <text x="30" y="50" class="step-m">05</text>
+    <rect x="75" y="0" width="265" height="130" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadowM)" />
+    <text x="95" y="38" class="title-m">5. Visa Issued</text>
+    <text x="95" y="65" class="desc-m">Official residency visa issued,</text>
+    <text x="95" y="85" class="desc-m">e-visa dispatched &amp; physical</text>
+    <text x="95" y="105" class="desc-m">Emirates ID card delivered.</text>
+  </g>
+</svg>

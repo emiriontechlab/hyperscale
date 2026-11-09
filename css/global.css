@@ -1455,6 +1455,7 @@ small {
 
 .accordion-item.active .accordion-content,
 .accordion-item.active .accordion-body {
+  max-height: 800px;
   opacity: 1;
   visibility: visible;
   padding: 1.25rem var(--space-lg) 1.5rem;

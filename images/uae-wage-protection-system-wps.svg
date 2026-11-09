@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="600" height="500" fill="none">
+  <defs>
+    <linearGradient id="wpsTeal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="100%" stop-color="#007799" />
+    </linearGradient>
+    <linearGradient id="wpsNavy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F2137" />
+      <stop offset="100%" stop-color="#1A3A5C" />
+    </linearGradient>
+    <linearGradient id="wpsGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0F2137" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <style>
+    .label-title { font-family: 'Poppins', -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #0F2137; text-anchor: middle; }
+    .label-desc { font-family: 'Inter', -apple-system, sans-serif; font-size: 12px; font-weight: 500; fill: #64748B; text-anchor: middle; }
+    .badge-text { font-family: 'Inter', -apple-system, sans-serif; font-size: 11px; font-weight: 700; fill: #007799; text-anchor: middle; }
+    .shield-text { font-family: 'Poppins', -apple-system, sans-serif; font-size: 11px; font-weight: 700; fill: #10B981; text-anchor: middle; }
+  </style>
+
+  <!-- Flow Connector Line with Dash Array -->
+  <path d="M110 210 L300 210 L490 210" stroke="#CBD5E1" stroke-width="4" stroke-dasharray="8 6" />
+  <path d="M110 210 L300 210 L490 210" stroke="url(#wpsTeal)" stroke-width="3" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Flow Direction Arrows -->
+  <polygon points="195,205 210,210 195,215" fill="#00B4D8" />
+  <polygon points="395,205 410,210 395,215" fill="#10B981" />
+
+  <!-- SIF File Badge 1 -->
+  <g transform="translate(160, 140)">
+    <rect x="-45" y="-14" width="90" height="28" rx="14" fill="#E0F7FA" stroke="#00B4D8" stroke-width="1.2" />
+    <text x="0" y="5" class="badge-text">SIF File</text>
+  </g>
+
+  <!-- Protected Salary Badge 2 -->
+  <g transform="translate(400, 140)">
+    <rect x="-55" y="-14" width="110" height="28" rx="14" fill="#ECFDF5" stroke="#10B981" stroke-width="1.2" />
+    <text x="0" y="5" class="shield-text">Direct Salary</text>
+  </g>
+
+  <!-- ================= 1. EMPLOYER (COMPANY) ================= -->
+  <g transform="translate(110, 210)">
+    <!-- Card Frame -->
+    <rect x="-85" y="-100" width="170" height="200" rx="18" fill="url(#cardBg)" stroke="#E2E8F0" stroke-width="1.5" filter="url(#softShadow)" />
+    
+    <!-- Building Icon Circle -->
+    <circle cx="0" cy="-35" r="34" fill="url(#wpsNavy)" />
+    <!-- Building SVG Icon -->
+    <path d="M-14 -18v-32h28v32M-6 -42h12M-6 -34h12M-6 -26h12" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M-18 -18h36" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+
+    <text x="0" y="42" class="label-title">Employer</text>
+    <text x="0" y="62" class="label-desc">Payroll Approval</text>
+    <text x="0" y="78" class="label-desc">&amp; SIF Generation</text>
+  </g>
+
+  <!-- ================= 2. WPS-APPROVED BANK / CENTRAL HUB ================= -->
+  <g transform="translate(300, 210)">
+    <!-- Card Frame (Highlighted Central) -->
+    <rect x="-85" y="-115" width="170" height="230" rx="20" fill="#FFFFFF" stroke="#00B4D8" stroke-width="2" filter="url(#softShadow)" />
+    
+    <!-- Bank Icon Circle -->
+    <circle cx="0" cy="-45" r="36" fill="url(#wpsTeal)" />
+    <!-- Bank Classical Columns Icon -->
+    <path d="M-18 -36L0 -48L18 -36M-16 -36v18M-6 -36v18M6 -36v18M16 -36v18M-20 -18h40" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    
+    <!-- Shield / Protected Badge -->
+    <g transform="translate(0, -5)">
+      <circle cx="0" cy="0" r="15" fill="#10B981" />
+      <path d="M-5 0l3 3 7-7" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <text x="0" y="38" class="label-title">WPS Bank</text>
+    <text x="0" y="58" class="label-desc">MoHRE / Central Bank</text>
+    <text x="0" y="74" class="label-desc">Routing &amp; Validation</text>
+    
+    <rect x="-55" y="88" width="110" height="20" rx="10" fill="#E6FFFA" />
+    <text x="0" y="102" class="shield-text">100% PROTECTED</text>
+  </g>
+
+  <!-- ================= 3. EMPLOYEE ================= -->
+  <g transform="translate(490, 210)">
+    <!-- Card Frame -->
+    <rect x="-85" y="-100" width="170" height="200" rx="18" fill="url(#cardBg)" stroke="#E2E8F0" stroke-width="1.5" filter="url(#softShadow)" />
+    
+    <!-- Employee Icon Circle -->
+    <circle cx="0" cy="-35" r="34" fill="url(#wpsGreen)" />
+    <!-- Employee with Wallet/Card Icon -->
+    <circle cx="0" cy="-44" r="9" stroke="#FFFFFF" stroke-width="2.2" fill="none" />
+    <path d="M-13 -20c0-6 6-10 13-10s13 4 13 10" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" fill="none" />
+    <rect x="3" y="-30" width="12" height="9" rx="2" fill="#FFFFFF" />
+
+    <text x="0" y="42" class="label-title">Employee</text>
+    <text x="0" y="62" class="label-desc">On-Time Salary</text>
+    <text x="0" y="78" class="label-desc">&amp; Digital Payslips</text>
+  </g>
+
+  <!-- Bottom Regulatory Assurance Banner -->
+  <g transform="translate(300, 435)">
+    <rect x="-240" y="-18" width="480" height="36" rx="18" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+    <circle cx="-215" cy="0" r="8" fill="#10B981" />
+    <path d="-218 0l2 2 4-4" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="10" y="5" font-family="'Inter', sans-serif" font-size="12px" font-weight="600" fill="#334155" text-anchor="middle">
+      Compliant with MoHRE Wage Protection System Regulations
+    </text>
+  </g>
+</svg>

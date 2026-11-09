@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="120" y1="130" x2="1080" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#00B4D8" />
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="100%" stop-color="#007799" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#0F2137" flood-opacity="0.06" />
+    </filter>
+    <filter id="pillShadow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00B4D8" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text { font-family: 'Poppins', -apple-system, sans-serif; font-size: 16px; font-weight: 700; fill: #0F2137; text-anchor: middle; }
+    .desc-text { font-family: 'Inter', -apple-system, sans-serif; font-size: 13px; font-weight: 400; fill: #64748B; text-anchor: middle; }
+    .step-num { font-family: 'Poppins', -apple-system, sans-serif; font-size: 13px; font-weight: 800; fill: #FFFFFF; text-anchor: middle; }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="1200" height="360" rx="20" fill="url(#bgGrad)" stroke="#E2E8F0" stroke-width="1.5" />
+
+  <!-- Connecting Timeline Line -->
+  <line x1="140" y1="120" x2="1060" y2="120" stroke="url(#lineGrad)" stroke-width="4" stroke-dasharray="8 6" opacity="0.65" />
+  <line x1="140" y1="120" x2="1060" y2="120" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round" />
+
+  <!-- ================= STEP 1: DOCUMENTS ================= -->
+  <g transform="translate(40, 40)">
+    <!-- Card Back -->
+    <rect x="15" y="10" width="180" height="260" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" />
+    <!-- Number Circle -->
+    <circle cx="105" cy="80" r="34" fill="url(#tealGrad)" filter="url(#pillShadow)" />
+    <!-- Folder Icon -->
+    <path d="M93 72h8l4 4h12a3 3 0 013 3v16a3 3 0 01-3 3H93a3 3 0 01-3-3V75a3 3 0 013-3z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M96 82h18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+    <rect x="85" y="28" width="40" height="22" rx="11" fill="#0F2137" />
+    <text x="105" y="44" class="step-num">01</text>
+    <!-- Text -->
+    <text x="105" y="160" class="title-text">1. Documents</text>
+    <text x="105" y="185" class="desc-text">Collection &amp; rigorous</text>
+    <text x="105" y="205" class="desc-text">pre-check of passport,</text>
+    <text x="105" y="225" class="desc-text">photos &amp; certificates</text>
+  </g>
+
+  <!-- ================= STEP 2: WORK & ENTRY PERMIT ================= -->
+  <g transform="translate(270, 40)">
+    <rect x="15" y="10" width="180" height="260" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" />
+    <circle cx="105" cy="80" r="34" fill="url(#tealGrad)" filter="url(#pillShadow)" />
+    <!-- Stamped Permit Icon -->
+    <path d="M95 68h20a2 2 0 012 2v24a2 2 0 01-2 2H95a2 2 0 01-2-2V70a2 2 0 012-2z" stroke="#FFFFFF" stroke-width="2" fill="none" />
+    <path d="M99 74h12M99 79h8" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+    <circle cx="105" cy="88" r="4" stroke="#FFFFFF" stroke-width="1.8" />
+    <rect x="85" y="28" width="40" height="22" rx="11" fill="#0F2137" />
+    <text x="105" y="44" class="step-num">02</text>
+    <text x="105" y="156" class="title-text">2. Work &amp; Entry</text>
+    <text x="105" y="174" class="title-text">Permit</text>
+    <text x="105" y="196" class="desc-text">MoHRE/Immigration</text>
+    <text x="105" y="216" class="desc-text">approval &amp; e-permit</text>
+    <text x="105" y="236" class="desc-text">or status change</text>
+  </g>
+
+  <!-- ================= STEP 3: MEDICAL FITNESS TEST ================= -->
+  <g transform="translate(500, 40)">
+    <rect x="15" y="10" width="180" height="260" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" />
+    <circle cx="105" cy="80" r="34" fill="url(#tealGrad)" filter="url(#pillShadow)" />
+    <!-- Medical Cross Icon -->
+    <circle cx="105" cy="80" r="14" stroke="#FFFFFF" stroke-width="2" fill="none" />
+    <path d="M105 73v14M98 80h14" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    <rect x="85" y="28" width="40" height="22" rx="11" fill="#0F2137" />
+    <text x="105" y="44" class="step-num">03</text>
+    <text x="105" y="156" class="title-text">3. Medical Test</text>
+    <text x="105" y="182" class="desc-text">Booking &amp; fast-track</text>
+    <text x="105" y="202" class="desc-text">screening at certified</text>
+    <text x="105" y="222" class="desc-text">health centres</text>
+  </g>
+
+  <!-- ================= STEP 4: EMIRATES ID ================= -->
+  <g transform="translate(730, 40)">
+    <rect x="15" y="10" width="180" height="260" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" />
+    <circle cx="105" cy="80" r="34" fill="url(#tealGrad)" filter="url(#pillShadow)" />
+    <!-- Fingerprint / ID Icon -->
+    <path d="M94 72a15 15 0 0122 0M97 76a10 10 0 0116 0M94 88c0-6 4-11 11-11s11 5 11 11M100 89c0-3 2-6 5-6s5 3 5 6M105 89v3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" />
+    <rect x="85" y="28" width="40" height="22" rx="11" fill="#0F2137" />
+    <text x="105" y="44" class="step-num">04</text>
+    <text x="105" y="156" class="title-text">4. Emirates ID</text>
+    <text x="105" y="182" class="desc-text">ICP form submission</text>
+    <text x="105" y="202" class="desc-text">&amp; biometrics appointment</text>
+    <text x="105" y="222" class="desc-text">coordination</text>
+  </g>
+
+  <!-- ================= STEP 5: VISA ISSUED ================= -->
+  <g transform="translate(960, 40)">
+    <rect x="15" y="10" width="180" height="260" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#cardShadow)" />
+    <circle cx="105" cy="80" r="34" fill="url(#greenGrad)" filter="url(#pillShadow)" />
+    <!-- Passport with Check Icon -->
+    <path d="M94 69h18a3 3 0 013 3v20a3 3 0 01-3 3H94a3 3 0 01-3-3V72a3 3 0 013-3z" stroke="#FFFFFF" stroke-width="2" fill="none" />
+    <circle cx="103" cy="79" r="4" stroke="#FFFFFF" stroke-width="1.8" />
+    <path d="M98 90l3 3 6-6" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="85" y="28" width="40" height="22" rx="11" fill="#10B981" />
+    <text x="105" y="44" class="step-num">05</text>
+    <text x="105" y="156" class="title-text">5. Visa Issued</text>
+    <text x="105" y="182" class="desc-text">Residency visa issued</text>
+    <text x="105" y="202" class="desc-text">&amp; physical Emirates ID</text>
+    <text x="105" y="222" class="desc-text">card delivered</text>
+  </g>
+</svg>

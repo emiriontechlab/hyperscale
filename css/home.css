@@ -785,6 +785,7 @@
 
 /* Active Highlighted Answer Theme */
 .faq .accordion-item.active .accordion-body {
+  max-height: 800px;
   opacity: 1;
   visibility: visible;
   padding: 20px 28px 28px 28px;
