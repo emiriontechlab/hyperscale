@@ -34,6 +34,26 @@
   margin: 0 auto;
 }
 
+.blog-hero .breadcrumb-nav {
+  margin-bottom: 20px;
+}
+
+.blog-hero .breadcrumbs {
+  justify-content: center;
+}
+
+.blog-hero .breadcrumbs a {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.blog-hero .breadcrumbs a:hover {
+  color: var(--color-teal) !important;
+}
+
+.blog-hero .breadcrumbs .breadcrumb-current {
+  color: #FFFFFF !important;
+}
+
 .blog-hero .eyebrow-text {
   display: inline-block;
   padding: 6px 16px;
